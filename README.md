@@ -14,3 +14,19 @@
 ```python
 python main.py
 ```
+### Creates Staging table named customer with schema
+
++---------------------+--------------+------+-----+---------+-------+
+| Field               | Type         | Null | Key | Default | Extra |
++---------------------+--------------+------+-----+---------+-------+
+| Customer_Name       | varchar(255) | NO   |     | NULL    |       |
+| Customer_ID         | varchar(18)  | NO   |     | NULL    |       |
+| Customer_Open_Date  | date         | NO   |     | NULL    |       |
+| Last_Consulted_DATE | date         | YES  |     | NULL    |       |
+| Vaccination_Type    | char(5)      | YES  |     | NULL    |       |
+| Doctor_Consulted    | char(255)    | YES  |     | NULL    |       |
+| State               | char(5)      | YES  |     | NULL    |       |
+| Country             | char(5)      | YES  |     | NULL    |       |
+| Date_of_Birth       | date         | YES  |     | NULL    |       |
+| Active_Customer     | char(1)      | YES  |     | NULL    |       |
++---------------------+--------------+------+-----+---------+-------+
