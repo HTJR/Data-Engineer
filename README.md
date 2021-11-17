@@ -44,3 +44,13 @@ python main.py
 | Jacob         | 1256        | 2010-10-12         | 2012-10-13          | MVD              | Paul             | VIC   | AU      | 1987-06-03    | A               |
 | John1         | 123458      | 2010-10-12         | 2012-10-13          | MVD              | Paul             | TN    | IND     | 1987-06-03    | A               |
 | John2         | 123458      | 2010-10-12         | 2012-10-13          | MVD              | Paul             | TN    | IND     | 1987-06-03    | A               |
+
+### Then it seperates the data into its respective table according to it Country
+### For eg for India it creates table table_ind
+
+
+| Customer_Name | Customer_ID | Customer_Open_Date | Last_Consulted_DATE | Vaccination_Type | Doctor_Consulted | State | Country | Date_of_Birth | Active_Customer |
+| --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
+| John          | 123458      | 2010-10-12         | 2012-10-13          | MVD              | Paul             | TN    | IND     | 1987-06-03    | A               |
+| John1         | 123458      | 2010-10-12         | 2012-10-13          | MVD              | Paul             | TN    | IND     | 1987-06-03    | A               |
+| John2         | 123458      | 2010-10-12         | 2012-10-13          | MVD              | Paul             | TN    | IND     | 1987-06-03    | A               |
