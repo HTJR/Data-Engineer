@@ -18,7 +18,7 @@ python main.py
 
 
 | Field               | Type         | Null | Key | Default | Extra |
-----------------------+--------------+------+-----+---------+--------
+| --------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
 | Customer_Name       | varchar(255) | NO   |     | NULL    |       |
 | Customer_ID         | varchar(18)  | NO   |     | NULL    |       |
 | Customer_Open_Date  | date         | NO   |     | NULL    |       |
