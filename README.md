@@ -10,7 +10,7 @@
 |D|Matt|12345|20101012|20121013|MVD|Paul|BOS|NYC|06031987|A|
 |D|Jacob|1256|20101012|20121013|MVD|Paul|VIC|AU|06031987|A|
 
-### To run
+# To run
 ```python
 python main.py
 ```
