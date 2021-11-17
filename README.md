@@ -31,6 +31,7 @@ python main.py
 | Active_Customer     | char(1)      | YES  |     | NULL    |       |
 
 ### Data Example
+
 | Customer_Name | Customer_ID | Customer_Open_Date | Last_Consulted_DATE | Vaccination_Type | Doctor_Consulted | State | Country | Date_of_Birth | Active_Customer |
 | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
 | Alex          | 123457      | 2010-10-12         | 2012-10-13          | MVD              | Paul             | SA    | USA     | 1987-06-03    | A               |
