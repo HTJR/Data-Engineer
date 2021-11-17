@@ -29,7 +29,9 @@ def get_table():
 def get_col():
   mycursor.execute("select column_name from information_schema.columns where table_name='customer' ORDER BY ORDINAL_POSITION")
   lis=[i[0] for i in mycursor]
-  return lis
+  res = []
+  [res.append(x) for x in lis if x not in res]
+  return res
 
 def get_data():
   sql="SELECT *,country FROM customer"

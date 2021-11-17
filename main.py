@@ -35,7 +35,6 @@ else:
   print("already created")
 
 lis=get_col()
-
 col= "`,`".join([str(i) for i in lis])
 
 for i,row in df.iterrows():
